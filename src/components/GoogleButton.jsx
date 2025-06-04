@@ -18,7 +18,7 @@ const GoogleButton = () => {
   };
 
   return (
-    <div style={{ marginTop: "20px" }}>
+    <div style={{ marginTop: "20px" }}  className="buttonDiv">
       <GoogleLogin onSuccess={handleSuccess} onError={handleError} />
     </div>
   );
